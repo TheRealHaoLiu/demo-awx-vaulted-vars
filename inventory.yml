@@ -1,0 +1,8 @@
+all:
+  vars:
+    ansible_connection: local
+  hosts:
+    host1:
+      ansible_user: "host1_user"
+    host2:
+      ansible_user: "host2_user"
